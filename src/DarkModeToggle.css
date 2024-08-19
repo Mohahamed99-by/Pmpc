@@ -1,0 +1,25 @@
+/* src/index.css */
+body.dark-mode {
+  background-color: #121212;
+  color: #ffffff;
+}
+
+body {
+  background-color: #ffffff;
+  color: #000000;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.dark-mode-toggle {
+  background: none;
+  border: none;
+  cursor: pointer;
+  font-size: 24px;
+  margin: 20px;
+  padding: 10px;
+  color: inherit;
+}
+
+.dark-mode-toggle:focus {
+  outline: none;
+}

@@ -1,0 +1,62 @@
+/* UserLayouts.css */
+
+/* Container for the sidebar and content */
+.layout {
+    display: flex;
+    height: 100vh;
+}
+
+/* Sidebar styling */
+.sidebar {
+    width: 250px;
+    background-color: #343a40; /* Dark background color */
+    color: #fff; /* White text color */
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100%;
+    overflow-y: auto;
+    padding: 1rem;
+}
+
+.logo {
+    text-align: left;
+    margin-bottom: 1rem;
+}
+
+
+
+.sidebar-menu {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.sidebar-item {
+    margin-bottom: 1rem;
+}
+
+.sidebar-link {
+    color: #fff;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    padding: 0.5rem 1rem;
+    border-radius: 4px;
+    transition: background-color 0.3s;
+}
+
+.sidebar-link:hover {
+    background-color: #495057; /* Slightly lighter background on hover */
+}
+
+.sidebar-icon {
+    margin-right: 10px;
+}
+
+/* Content area styling */
+.content {
+    margin-left: 250px; /* Same width as the sidebar */
+    padding: 2rem;
+    width: 100%;
+}

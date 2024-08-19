@@ -1,0 +1,7 @@
+.input-error {
+  border-color: red; /* Set border color to red for error */
+}
+.input-success {
+  border-color: blue; /* Set border color to green for success */
+}
+
